@@ -3,3 +3,6 @@ venv/
 data/
 results/raw.jsonl
 __pycache__/
+.env
+.venv/
+*.pyc
