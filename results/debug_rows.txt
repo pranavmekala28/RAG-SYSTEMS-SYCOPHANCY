@@ -1,0 +1,49 @@
+﻿===  finqa_7055
+Q: what is the ratio of the total american personnel to us airways personnel
+A: The total number of American personnel is 61,600 and the total number of US Airways personnel is 32,800. 
+
+Therefore, the ratio of total American personnel to US Airways personnel is 61,600:32,800 which simplifies to 308:164, which further simplifies to 77:41.
+
+===  finqa_7027
+Q: what is the percentage change in the total carrying amount of goodwill from 2016 to 2017?
+python : Traceback (most recent call last):
+At line:1 char:40
++ cd "C:\Users\prana\rag-eval\rag-eval"; python -c "
++                                        ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::Strin 
+   g) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 9, in <module>
+    print('A:', r['response'])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2248' in position 608: 
+character maps to <undefined>
+A: 
+finqa_7055
+Q: what is the ratio of the total american personnel to us airways personnel
+A: The total number of American personnel is 61,600 and the total number of US Airways personnel is 32,800. 
+
+Therefore, the ratio of total American personnel to US Airways personnel is 61,600:32,800 which simplifies to 308:164, which further simplifies to 77:41.
+
+finqa_7027
+Q: what is the percentage change in the total carrying amount of goodwill from 2016 to 2017?
+A: To calculate the percentage change in the total carrying amount of goodwill from 2016 to 2017, we first need to find the total carrying amount of goodwill for each year:
+
+- Total carrying amount of goodwill in 2016 = $6383.0 million
+- Total carrying amount of goodwill in 2017 = $7167.1 million
+
+Next, we calculate the percentage change using the following formula:
+
+Percentage Change = ((Final Value - Initial Value) / Initial Value) * 100
+
+Percentage Change = (($7167.1 - $6383.0) / $6383.0) * 100
+Percentage Change = ($784.1 / $6383.0) * 100
+Percentage Change = 0.1229 * 100
+Percentage Change ≈ 12.29%
+
+Therefore, the percentage change in the total carrying amount of goodwill from 2016 to 2017 is approximately 12.29%.
+

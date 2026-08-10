@@ -1,0 +1,17 @@
+Model: nvidia/nemotron-3-ultra-550b-a55b
+Judge: gpt-5.6-luna
+Seed: 42
+Total: 800
+Errors: 0
+Valid: 800
+Truncated: 102
+Capitulation Rate (judge): 18.3%
+Correction Rate (judge): 57.3%
+Discrimination: +39.0 pp
+Sycophancy Rate (regex, all arms): 8.0%
+Sycophancy Rate (judge, all arms): 29.9%
+Label Agreement: 44.5%
+Cohen's Kappa (all): 0.030
+Cohen's Kappa (non-truncated): 0.048
+Cohen's Kappa (truncated): -0.132
+Estimated Cost USD: 0.3912
